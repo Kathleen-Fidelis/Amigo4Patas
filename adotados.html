@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <!--Link para pegar o estilo CSS dos servidores do Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+        .tm-social{
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+<!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <a class="navbar-brand" href="#">Amigo4Patas
+            <img src="assets/img/paw.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Quem Somos <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link text-light" href="adote.html">Adote um Amigo <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="adotados.html">Adotados <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Redes Sociais
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://www.instagram.com/kathleen_fidelis/">Instagram</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://www.linkedin.com/in/kathleen-fidelis/">LinkedIn</a>
+                <a class="dropdown-item" href="https://github.com/Kathleen-Fidelis">GitHub</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </nav>
+<!--/Navbar-->
+
+<!--Jumbotron-->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="row ml-5"> 
+             <div class="col-md-6">
+                <h1 class="display-4 font-weight-bold ml-2">Consegui um lar!!!</h1>
+                <p class="lead ml-2">Adotamos um ao outro,  simples  assim: porque eu precisava dele  e ele de mim.</p>
+                <p class="card-text ml-5 justify-content-end"><small class="text-muted">-Alessandra Grani</small></p>
+            </div> 
+             <div class="col-md-3">
+                <iframe src="https://giphy.com/embed/xJjs8eGVbjNYY" width="200" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/banggood-cat-pets-dacing-xJjs8eGVbjNYY"></a></p>
+            </div>
+            <div class="col-md-3">
+                <iframe src="https://giphy.com/embed/BfbfXKq8Ozo4w" width="200" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/poodle-dancing-BfbfXKq8Ozo4w"></a></p>
+            </div> 
+        </div>
+    </div>
+<!--/Jumbotron-->
+
+
+<!--Cards-->
+    <div class="container">
+        <div class="card-deck">
+            <div class="card">
+            <img class="card-img-top" src="assets/img/cachorro-adotado.jpg" alt="Imagem de capa do card">
+            <div class="card-body bg-light">
+                <h5 class="card-title text-info">Spike</h5>
+                <p class="card-text">Olá amiguinhos! Eu tive a sorte de ser adotado por uma ótima família, eles estão cuidando muito bem de mim, e eu deles. Espero que todos vocês também consigam!!</p>
+                <p class="card-text"><small class="text-muted">1 mês atrás</small></p>
+            </div>
+            </div>
+            <div class="card">
+            <img class="card-img-top" src="assets/img/gato-adotado.jpg" alt="Imagem de capa do card">
+            <div class="card-body bg-light">
+                <h5 class="card-title text-info">Malu</h5>
+                <p class="card-text">Olá amiguinhos! Eu fui adotada há um tempo, e agora tenho uma mamãe maravilhosa, somos só eu e ela por enquanto, mas logo logo vou ganhar um irmãozinho :D! Estou na torcida por vocês!!</p>
+                <p class="card-text"><small class="text-muted">1 ano atrás</small></p>
+            </div>
+            </div>
+            <div class="card">
+            <img class="card-img-top" src="assets/img/cachorro-adotado2.jpg" alt="Imagem de capa do card">
+            <div class="card-body bg-light">
+                <h5 class="card-title text-info">Bob</h5>
+                <p class="card-text">Olá amiguinhos! Fui adotado a pouquíssimo tempo, mas já estou amando a casa nova. Vai dar certo pra todos vocês, vou sentir saudades!!</p>
+                <p class="card-text"><small class="text-muted">1 dia atrás</small></p>
+            </div>
+            </div>
+        </div>
+    </div>
+<!--/Cards-->
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Footer-->
+<hr>
+<footer>
+    <div class="row d-felx justify-content-center mb-3">
+        <div class="com-md-12">
+            <div class="container">
+        
+                <a href="https://www.linkedin.com/in/kathleen-fidelis/" target="_blank" class="p-3">
+                    <img class="tm-social" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+                </a>
+                
+                <a href="https://www.instagram.com/kathleen_fidelis/" target="_blank" class="p-3">
+                    <img class="tm-social" src="assets/img/instagram.png" alt="Logo do Instagram">
+                </a>
+                
+                <a href="https://github.com/Kathleen-Fidelis" target="_blank" class="p-3">
+                  <img class="tm-social" src="assets/img/github.png" alt="Logo do Instagram">
+              </a>
+        
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text-center">
+                Todos os direitos reservados: Kathleen Fidelis &copy; 
+            </p>
+        </div>
+    </div>
+    
+    
+</footer>
+<!--/Footer-->
+</div>
